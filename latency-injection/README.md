@@ -225,8 +225,8 @@ ubuntu@li-client:~$ sudo ip route add 172.16.0.8/29 via 172.16.0.5 dev ens4
 ubuntu@li-client:~$ ip ro sh
 default via 192.168.0.1 dev ens3
 169.254.169.254 via 192.168.0.1 dev ens3
-172.16.0.0/29 dev ens4  proto kernel  scope link  src 172.16.0.5
-172.16.0.8/29 via 172.16.0.6 dev ens4
+172.16.0.0/29 dev ens4  proto kernel  scope link  src 172.16.0.6
+172.16.0.8/29 via 172.16.0.5 dev ens4
 192.168.0.0/24 dev ens3  proto kernel  scope link  src 192.168.0.10
 ```
 
