@@ -62,9 +62,6 @@ os subnet create --subnet-range=172.16.0.0/29 --network li-link1 li-link1-subnet
 os subnet create --subnet-range=172.16.0.8/29 --network li-link2 li-link2-subnet
 ```
 
-os subnet create --subnet-range=172.16.0.0/29 --allocation-pool start=172.16.0.1,end=172.16.0.6 --network li-link1 li-link1-subnet
-os subnet create --subnet-range=172.16.0.8/29 --allocation-pool start=172.16.0.9,end=172.16.0.14 --network li-link2 li-link2-subnet
-
 Subnets:
 
 ```
